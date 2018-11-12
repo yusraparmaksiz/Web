@@ -1,0 +1,30 @@
+#container {
+  background-color: black;
+  width: 1000px;
+  height: 1000px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#birinci
+{
+  background-color: blue;
+  width : 100px;
+  height: 100px;
+  flex: 1 25%;
+}
+#ikinci
+{
+  background-color: green;
+  width : 100px;
+  height: 100px;
+  flex: 1 50%;
+}
+#üçüncü
+{
+  background-color: red;
+  width : 100px;
+  height: 100px;
+  flex: 1 25%;
+ }

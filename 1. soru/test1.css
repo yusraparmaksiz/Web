@@ -1,0 +1,43 @@
+#all
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1
+{
+  text-align: center;
+  flex: 1 100%;
+}
+p
+{
+  flex: 1 100%;
+}
+#menu p{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 0px 15px 0px 15px;
+  margin-right: 2px;
+}
+#pic
+{ width = 100px;}
+#rating {
+  width: 100px;
+  flex-wrap: wrap;
+  font-size: 50px;
+  text-align: center;
+   height: 100px;
+   background-color: green;
+   color: white;
+   margin: 5px;}
+
+#score { flex: 1 50%; margin-right: 400px;}
+#menu
+{
+  display:flex;
+  flex-direction: row;
+  flex: 1 100%;
+  margin-right: 500px;
+}

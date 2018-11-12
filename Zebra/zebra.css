@@ -1,0 +1,19 @@
+.qtable{
+ border-collapse: collapse;
+ border: 1px solid black;
+ margin: 1em auto;
+}
+.qtable td, .qtable th {
+ border: 1px solid black;
+ padding: 0em 0.5em;
+}
+.zebra{
+ background-color: #000000;
+ color: #ffffff;
+}
+
+.yusra
+{
+  background-color: green;
+  color: white;
+}
